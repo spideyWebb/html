@@ -110,7 +110,7 @@ function getCurrentNavigationElement() {
   }
   return null;
 }
-
+//Checks the results if it matches the query
 function getNextNavigationElement(currentEl) {
   if (currentEl === query) {
     return resultsList.querySelector('a');
